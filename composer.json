@@ -1,0 +1,21 @@
+{
+    "name": "samfelgar/proxy",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Samfelgar\\Proxy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samuel Felipe",
+            "email": "samfelgar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "symfony/console": "^5.3",
+        "react/http": "^1.5",
+        "clue/socks-react": "^1.3"
+    }
+}
